@@ -51,3 +51,12 @@ while number != 0:
 # Imprimir resultados.
 print("Números ímpares contam:", odd_numbers)
 print("Números pares contam:", even_numbers)
+
+
+
+counter = 5
+while counter != 0:
+    print("Dentro do laço.", counter)
+    counter -= 1
+print("Fora do circuito.", counter)
+ 
