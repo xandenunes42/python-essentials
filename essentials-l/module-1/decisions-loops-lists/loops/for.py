@@ -1,4 +1,3 @@
-"""
 import time
 
 for i in range(100):
@@ -51,7 +50,7 @@ for i in range(1, 6):
         continue
     print("Dentro do laço.", i)
 print("Fora do loop.")
-"""
+
 
 nome = input("Informe o nome:\n")
 nome = nome.upper()
@@ -61,3 +60,14 @@ for i in nome:
         continue
     else:
         print(i)
+
+
+# while + else 
+
+i = 1
+while i < 5:
+    print(i)
+    i += 1
+else:
+    print("else:", i)
+
