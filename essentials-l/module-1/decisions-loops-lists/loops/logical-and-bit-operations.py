@@ -4,10 +4,28 @@
 # not (p and q) == (not p) or (not q)
 # not (p or q) == (not p) and (not q)
 
+i = 15
+j = 22
 
-var = 1 
-var2 = 2 
-var3 = 5
+#imagem bit a bit 
+# i: 00000000000000000000000000001111
+# j: 00000000000000000000000000010110
 
-if var < 2 & var3 > 4:
-    print("Sim")
+log = i and j
+#true 
+
+bit = i & j
+# 000000000000000000000000000 00110 -> valor 6
+
+logneg = not i
+
+#negacao bit a bit 
+bitneg = ~i
+# i:  00000000000000000000000000001111 
+# ~i: 11111111111111111111111111110000 -> valor -16
+
+
+
+ 
+
+
